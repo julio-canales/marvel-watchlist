@@ -1,0 +1,41 @@
+label {
+    font-size: 18px;
+}
+.row {
+    display: flex;
+    width: 100%;
+    margin: 5px;
+    background-color: #aa0505;
+    color: #cccccc;
+}
+.column {
+    flex: 50%;
+    height: 550px;
+    padding: 10px;
+}
+#heading {
+    height: 15%;
+    text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: #aa0505;
+    font-size: 20px;
+}
+#mlist {
+    height: 100%;
+    width: 90%;
+    overflow-y: scroll;
+}
+#infotext {
+    float: left;
+    margin-right: 200px;
+}
+#poster {
+    height: 350px;
+}
+#totallength {
+    margin-top: 100px;
+}
+#footer {
+    color: #aa0505;
+    text-align: center;
+}
