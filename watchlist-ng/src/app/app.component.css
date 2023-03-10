@@ -20,21 +20,7 @@ label {
     color: #aa0505;
     font-size: 20px;
 }
-#mlist {
-    height: 100%;
-    width: 90%;
-    overflow-y: scroll;
-}
-#infotext {
-    float: left;
-    margin-right: 200px;
-}
-#poster {
-    height: 350px;
-}
-#totallength {
-    margin-top: 100px;
-}
+
 #footer {
     color: #aa0505;
     text-align: center;

@@ -1,0 +1,11 @@
+#mlist {
+    height: 100%;
+    width: 90%;
+    overflow-y: scroll;
+}
+label {
+    font-size: 1.25rem;
+}
+input {
+    height: 3%;
+}

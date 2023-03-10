@@ -1,0 +1,76 @@
+<div id="mlist">
+    <div *ngFor="let proj of projects">
+        <div (mouseenter)="setActive(proj)" (mouseleave)="rmActive()">
+            <input type="checkbox" [value]="proj.time" (click)="boxClick($event)">
+            <label>{{proj.name}}</label>  
+        </div>
+    </div>
+    <!-- <input type="checkbox" id="im1" name="ironman" value="128">
+    <label for="im1"> Iron Man (2008)</label><br>
+    <input type="checkbox" id="hulk" name="hulk" value="112">
+    <label for="hulk"> The Incredible Hulk (2008)</label><br>
+    <input type="checkbox" id="im2" name="ironman2" value="124">
+    <label for="im2"> Iron Man 2 (2010)</label><br>
+    <input type="checkbox" id="thor1" name="thor" value="115">
+    <label for="thor1"> Thor (2011)</label><br>
+    <input type="checkbox" id="ca1" name="captainamerica" value="124">
+    <label for="ca1"> Captain America: The First Avenger (2011)</label><br>
+    <input type="checkbox" id="av1" name="avengers" value="143">
+    <label for="av1"> The Avengers (2012)</label><br>
+    <input type="checkbox" id="im3" name="ironman3" value="130">
+    <label for="im3"> Iron Man 3 (2013)</label><br>
+    <input type="checkbox" id="thor2" name="thordarkworld" value="112">
+    <label for="thor2"> Thor: The Dark World (2013)</label><br>
+    <input type="checkbox" id="ca2" name="captainamericawintersoldier" value="136">
+    <label for="ca2"> Captain America: The Winter Soldier (2014)</label><br>
+    <input type="checkbox" id="gotg1" name="guardiansofthegalaxy" value="121">
+    <label for="gotg1"> Guardians of the Galaxy (2014)</label><br>
+    <input type="checkbox" id="av2" name="avengersageofultron" value="141">
+    <label for="av2"> Avengers: Age of Ultron (2015)</label><br>
+    <input type="checkbox" id="am1" name="antman" value="117">
+    <label for="am1"> Ant-Man (2015)</label><br>
+    <input type="checkbox" id="ca3" name="captainamericacivilwar" value="147">
+    <label for="ca3"> Captain America: Civil War (2016)</label><br>
+    <input type="checkbox" id="ds1" name="doctorstrange" value="115">
+    <label for="ds1"> Doctor Strange (2016)</label><br>
+    <input type="checkbox" id="gotg2" name="guardiansofthegalaxyvol2" value="136">
+    <label for="gotg2"> Guardians of the Galaxy Vol. 2 (2017)</label><br>
+    <input type="checkbox" id="smh" name="spidermanhomecoming" value="133">
+    <label for="smh"> Spider-Man: Homecoming (2017)</label><br>
+    <input type="checkbox" id="thor3" name="thorragnarok" value="130">
+    <label for="thor3"> Thor: Ragnarok (2017)</label><br>
+    <input type="checkbox" id="bp1" name="blackpanther" value="134">
+    <label for="bp1"> Black Panther (2018)</label><br>
+    <input type="checkbox" id="av3" name="avengersinfinitywar" value="149">
+    <label for="av3"> Avengers: Infinity War (2018)</label><br>
+    <input type="checkbox" id="am2" name="antmanandthewasp" value="118">
+    <label for="am2"> Ant-Man and the Wasp (2018)</label><br>
+    <input type="checkbox" id="cm1" name="captainmarvel" value="123">
+    <label for="cm1"> Captain Marvel (2019)</label><br>
+    <input type="checkbox" id="av4" name="avengersendgame" value="181">
+    <label for="av4"> Avengers: Endgame (2019)</label><br>
+    <input type="checkbox" id="smffh" name="spidermanfarfromhome" value="129">
+    <label for="smffh"> Spider-Man: Far From Home (2019)</label><br>
+    <input type="checkbox" id="wv" name="wandavision" value="357">
+    <label for="wv"> WandaVision (2021)</label><br>
+    <input type="checkbox" id="tfatws" name="falconandwintersoldier" value="324">
+    <label for="tfatws"> The Falcon and the Winter Soldier (2021)</label><br>
+    <input type="checkbox" id="loki1" name="loki" value="297">
+    <label for="loki"> Loki (2021)</label><br>
+    <input type="checkbox" id="bw" name="blackwidow" value="134">
+    <label for="bw"> Black Widow (2021)</label><br>
+    <input type="checkbox" id="wi1" name="whatif" value="315">
+    <label for="wi1"> What If...? (2021)</label><br>
+    <input type="checkbox" id="sc" name="shangchilegendoftenrings" value="132">
+    <label for="sc"> Shang-Chi and the Legend of the Ten Rings (2021)</label><br>
+    <input type="checkbox" id="et1" name="eternals" value="157">
+    <label for="et1"> Eternals (2021)</label><br>
+    <input type="checkbox" id="he" name="hawkeye" value="294">
+    <label for="he"> Hawkeye (2021)</label><br>
+    <input type="checkbox" id="smnwh" name="spidermannowayhome" value="148">
+    <label for="smnwh"> Spider-Man: No Way Home (2021)</label><br>
+    <input type="checkbox" id="mk" name="moonknight" value="287">
+    <label for="mk"> Moon Knight (2022)</label><br>
+    <input type="checkbox" id="ds2" name="doctorstrangemultiverseofmadness" value="126">
+    <label for="ds2"> Doctor Strange in the Multiverse of Madness (2022)</label><br> -->
+</div>

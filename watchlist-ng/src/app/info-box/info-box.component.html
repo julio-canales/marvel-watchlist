@@ -1,0 +1,23 @@
+<div id="info">
+    <div id="infotext" *ngIf="activeProject.name==''; else showInfo">
+        <h2>Title</h2>
+        <p>Runtime</p>
+        <p>Release Date</p>
+        <p>Superheroes</p>
+        <p>Previous Movies</p>
+    </div>
+    <ng-template #showInfo>
+        <div id="infotext">
+            <h2>{{activeProject.name}}</h2>
+            <p>{{activeProject.format}}</p>
+            <p>{{activeProject.released}}</p>
+            <p>Superheroes</p>
+            <p>Previous Movies</p>
+        </div>
+    </ng-template>
+    <img id="poster" [src]="activeProject.poster? activeProject.poster:'../assets/images/dsitmom.jpg'">
+</div>
+<div id="totallength">
+    <h2>Total Watchlist Length:</h2>
+    <h3>{{totalLength | timeFormat}}</h3>
+</div>
